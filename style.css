@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+.container {
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    Margin-top: 20px;
+    display: grid;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+button {
+    margin-left: 10px;
+}
+
